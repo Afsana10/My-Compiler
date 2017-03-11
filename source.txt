@@ -1,0 +1,38 @@
+hashtag LAB io.header RAB
+
+TYPE main FBS FBC
+
+LB
+
+TYPE:int IDa comma IDb comma IDc semi 
+
+/ this is a single line comment
+
+MS
+this is a multiple line comment
+this is a multiple line comment
+this is a multiple line comment
+ME
+
+Operation
+++,--,**,dv,md,
+x <- y semi
+
+IDa <- IDb ++ IDc semi
+IDa <- IDb -- IDc semi
+IDa <- IDb ** IDc semi
+IDa <- IDb dv IDc semi
+IDa <- IDb md IDc semi
+
+CONDITION FBS IDa GT IDb FBC
+LB
+IDa <- IDb ++ IDc semi
+RB
+OW
+LB
+IDa <- IDb ** IDc semi
+RB
+
+give 0;
+
+RB
